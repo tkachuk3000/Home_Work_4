@@ -1,19 +1,21 @@
 .wraper{
 	width: 100%;
-	height: 1200px;
-	background-image: url(background-1.jpg);
+	height: 990px;
+	background-image: url(../img/background-1.jpg);
     background-repeat: repeat;
     background-color: #5dddeb;
+    position: relative;
 }
 
 .general{
 	margin: 0 auto;
 	width: 1000px;
-	height: 990px;
+	height: 950px;
 	background-color: white;
 	position: relative;
 	font-family: arial;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	box-shadow: 0 0 14px rgba(0,0,0,0.5);
+	position: relative;
 }
 
 .logo{
@@ -65,86 +67,105 @@
     padding-left: 6px;
 	padding-right: 6px;
 }
-.heder{
+.box{
+	position: relative;
 	background-color: #303030;
 	height: 30px;
 	width: 100%;
-   /*box-shadow: 0 0 2px rgba(0,0,0,0.5);*/
+	border-bottom: 2px solid black;
+    box-shadow: 0px 3px 3px 0px rgba(61,57,61,0.92);
+}
+
+.heder{
+	position: relative;
+	height: 30px;
+	width: 800px;
+	padding-left: 103px;
 }
 .menu{
-	display: block;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	font-size: 14px;
+	position: relative;
 
 }
 .menu li{
-	display: block;
+	display: inline-block;
 	position: relative;
-	float: left;
 	height: 23px;
-    /*margin-top: 5px;*/
-    /*margin-bottom: 2px;*/
     padding-top: 7px;
-    padding-left: 40px;
-    padding-right: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
 }
 .menu li a{
 	color: white;
 	text-decoration: none;
 }
-ul.trevel,
-  .service,
-  .partners
+.submenu
   {	
    display: none;
    position: absolute;
-   width: 110px;
-   /*top: 1450px;
-   left: 1300px;*/
+   top: 32px;
+   left: 0px;
+   box-shadow: 0px 1px 5px 2px rgba(61,57,61,0.92);
 }
-ul.trevel,
-  .service,
-  .partners li a{
-  	display: none;
-  	position: absolute;
-}
-
-ul.trevel,
-  .service,
-  .partners li a{
-    display: none;
-    padding: 10px;
-    color: white;
-    background-color: #303030;
-    text-decoration: none;
-    width: 140px;
-}
-
-.menu li:hover{
+.submenu li{
 	background-color: #444141;
 }
+
+.submenu li a{
+    color: white;
+    text-decoration: none;
+}
+
 .menu li a:hover{
-  	background-color: #444141;
   	border-bottom: 2px solid black;
   	color: #5dddeb;
   	text-decoration: underline;
 }
 
-.trevel,
-.service,
-.partners li a:hover{
-  	background-color: #444141;
+.menu li:hover .submenu{
+        	display: block;
 }
 
-ul.trevel,
-  .service,
-  .partners li a:hover{
-  	background-color: #7b7676;
+
+.box_2{
+	overflow: hidden;
+}
+.news{
+    width: 210px;
+    background-color: #edeef0;
+    float: right;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.information{
+    width: 210px;
+    background-color: #edeef0;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+ 
+}  
+.center{
+	width: 580;
+	float: left;
+}
+
+.n_1{
+	margin: 0 auto;
+	width: 180px;
+	margin-top: 20px;
   }
+.inf_1{
+	margin: 0 auto;
+	width: 180px;
+	margin-top: 20px;
+ }
 
-
-
-  
-
-
-  
+.n_1 h2{
+	/*font-size: 16;*/
+	font-weight: bold;
+}
+.inf_1 h2{
+	/*font-size: 16;*/
+	font-weight: bold;
